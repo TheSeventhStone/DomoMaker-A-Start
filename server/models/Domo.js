@@ -1,6 +1,5 @@
 const mongoose = require("mongoose");
 const _ = require("underscore");
-const { Domo } = require(".");
 
 const setName = (name) => _.escape(name).trim();
 
